@@ -138,3 +138,6 @@ To extend this repository with a new evaluation case, follow these steps:
 - **Entropy Informationt:** Ensure that if you are employing entropy information in your evaluations, it is populated with meaningful content. Empty entropy information might lead to unexpected results.
 - **Researcher Generated Prompts:** Ensure that the `examples_for_generation` directory contains a sufficient number of example prompts. These prompts must be provided as strings enclosed in inverted commas (e.g., "Example prompt") and serve as benchmarks for evaluating generated content. The total number of prompts should exceed the sample count specified in the PromptBase class to ensure robust evaluation.
 
+## Peer Review
+
+- AI assistants OpenAI Codex and Anthropic Claude Code systems were used in developing this software.
